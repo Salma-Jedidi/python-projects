@@ -1,0 +1,9 @@
+import pickle
+
+# Entraînement du modèle
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Sauvegarde du modèle
+with open("models/model.pkl", "wb") as file:
+    pickle.dump(model, file)
