@@ -1,5 +1,6 @@
 # python-projects
-** House Price Prediction Model **
+# House Price Prediction Model
+
 This notebook explores a house price prediction model using a dataset that includes features such as square footage, number of bedrooms and bathrooms, and additional details like the grade and condition of the house. Below is an outline of the steps taken:
 
 ### 1. Data Loading and Initial Exploration
@@ -62,7 +63,8 @@ rf	165,892.29	0.809	3rd
 lr	209,984.46	0.695	4th
 lr1	214,494.28	0.681	5th
 svr	391,224.82	-0.060	6th
-Best Model: RF_tune
+### Best Model: RF_tune
+
 # Why?
 Lowest RSME: 160,202, indicating the smallest prediction error.
 Highest R²: 0.822, meaning it explains the most variance in the data.
